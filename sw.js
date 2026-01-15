@@ -1,9 +1,12 @@
 const CACHE_NAME = 'max-app-v1';
+const BASE_PATH = '/scam/'; // Добавьте базовый путь
+
 const urlsToCache = [
-  '/',
-  '/index.html',
-  '/manifest.json',
-  'https://upload.wikimedia.org/wikipedia/commons/7/75/Max_logo_2025.png'
+  '/scam/',
+  '/scam/index.html',
+  '/scam/manifest.json',
+  '/scam/icons/icon-192.png',
+  '/scam/icons/icon-512.png'
 ];
 
 // Install event
